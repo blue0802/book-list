@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <div class="title-form">
+            <h1><i class="fas fa-book" style="padding-right: 5px; color: skyblue;"></i>My<span style="color: skyblue;">Book</span>list</h1>
+        </div>
+        <form id="book-form" class="book-form">
+            <div class="form-group">
+                <p>Title</p>
+                <input id="title" type="text">
+            </div>
+            <div class="form-group">
+                <p>Author</p>
+                <input id="author" type="text">
+            </div>
+            <div class="form-group">
+                <p>ISBN</p>
+                <input id="isbn" type="text">
+            </div>
+            <input type="submit" class="btn-submit" id="btn-submit" value="Submit">
+        </form>
+        <table class="book-list" id="book-list">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="books">
+
+            </tbody>
+        </table>
+    </section>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/5131e3e113.js" crossorigin="anonymous"></script>
+</body>
+</html>
